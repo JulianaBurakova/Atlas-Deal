@@ -11550,6 +11550,29 @@ h5,
   color: #f7f6f1;
   font-weight: 500;
 }
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .contact-details {
+    color: #ffffff; /* Example: Change text color for smaller screens */
+    font-weight: 400; /* Example: Adjust font weight for smaller screens */
+  }
+}
+
+/* Media query for medium screens */
+@media (min-width: 769px) and (max-width: 992px) {
+  .contact-details {
+    color: #e0e0e0; /* Example: Change text color for medium screens */
+    font-weight: 500; /* Keep font weight as default */
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 993px) {
+  .contact-details {
+    color: #f7f6f1; /* Keep original color for larger screens */
+    font-weight: 600; /* Example: Change font weight for larger screens */
+  }
+}
 .ftco-cart button i {
   color: #82ae46;
 }
