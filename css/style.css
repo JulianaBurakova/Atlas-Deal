@@ -11579,7 +11579,10 @@ h5,
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
+.contact-details {
+  color: #f7f6f1;
+  font-weight: 500;
+}
 .ftco-cart button i {
   color: #82ae46;
 }
